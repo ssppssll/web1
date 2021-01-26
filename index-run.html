@@ -28,7 +28,7 @@
       }
       body{
         background-color:#333333;
-        color:white;
+        color:#ffffff;
       }
       div{
         align-items:center;
@@ -67,29 +67,65 @@
 
   </head>
   <body>
+
+<!--처음에한
+    <div>
+      <input type="button" value="day" onclick="
+      document.querySelector('body').style.backgroundColor = '#cccccc';
+      document.querySelector('body').style.color = '#000000';
+      ">
+      <input type="button" value="night" onclick="
+      document.querySelector('body').style.backgroundColor = '#333333';
+      document.querySelector('body').style.color = '#ffffff';
+      ">
+    </div>
+  -->
+<div>
+      <input style="
+      width:20pt;height:20pt;
+      border-radius:20px; border:none;
+      background-color: #ffffff;
+      display: inline-block;
+      font-size:15pt; cursor: pointer;"
+      id="On_Off" type="button" value="&lt" onclick="
+    if(
+      document.querySelector('#On_Off').value === '&lt'
+      )
+    {
+      document.querySelector('body').style.backgroundColor = '#cccccc';
+      document.querySelector('body').style.color = '#000000';
+      document.querySelector('#On_Off').value = '&gt';
+    } else {
+      document.querySelector('body').style.backgroundColor = '#333333';
+      document.querySelector('body').style.color = '#ffffff';
+      document.querySelector('#On_Off').value = '&lt';
+    }">
+</div>
+
 <div id="name">
 ssppssll
 </div>
-<div>
-<div class="represent">
-  CEO of St.O'Clock
-</div>
-<div class="do">
-Bookmaker,
-Graphicmaker,
-Videomaker,
-Musicmaker
-and Chainsmoker.
-</div>
-<div class='snswrap'>
-<div class='snsone'>Personal</div>
-<div class='snstwo'>Designer</div>
-<div class='snsthree'>St.O'Clock</div>
-<div class='snsfour'>이월간</div>
-</div>
-</div>
 
 <div>
+  <div class="represent">
+    CEO of St.O'Clock
+  </div>
+  <div class="do">
+    Bookmaker,
+    Graphicmaker,
+    Videomaker,
+    Musicmaker
+    and Chainsmoker.
+  </div>
+  <div class='snswrap'>
+      <div class='snsone'>Personal</div>
+      <div class='snstwo'>Designer</div>
+      <div class='snsthree'>St.O'Clock</div>
+      <div class='snsfour'>이월간</div>
+  </div>
+</div>
+
+
 
 
 
