@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import "frame_user.css";
+
+#left-container{padding-bottom:100px !important;}
+/*@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');*/
+
+/* 폰트설정 */
+/*@font-face { font-family: 'Nanum Gothic'; font-style: normal; font-weight: 400; src: url(/Web-home/frame/css/font/NanumGothic.eot); src: url(/Web-home/frame/css/font/NanumGothic.eot?#iefix) format('embedded-opentype'), url(/Web-home/frame/css/font/NanumGothic.woff) format('woff'), url(/Web-home/frame/css/font/NanumGothic.ttf) format('truetype'); }*/
+
+/* /////////////////////////////////////////
+	=Default layout
+///////////////////////////////////////// */
+#skipnavi{
+	display: none;
+}
+#wrap-container{
+	/*min-height: 500px; 나중에 지워보고 문제 없으면 완전 지우고*/
+}
+#header-container,
+#left-container,
+#content-container,
+#footer-container{
+	position: relative;
+}
+#header-container{
+}
+#content-container{
+	overflow: hidden;
+	min-height: 500px; /*나중에 지워보고 문제 없으면 완전 지우고
+	_height: 500px;*/
+}
+#footer-container{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+/* /////////////////////////////////////////
+	=Tag reset
+///////////////////////////////////////// */
+html,
+body{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+	/*_overflow-x: hidden;
+	font-size:12px;
+	color:#7b7b7b;
+	font-family: Dotum,"돋움";
+	*/
+}
+
+body{
+    font-size: 0.75em;
+    font-family: "돋움",dotum,"굴림",gulim,tahoma,sans-serif,serif !important;
+    /* font-family: "돋움","돋움체",dotum,gulim,tahoma,sans-serif,serif !important; */
+    line-height:1.5;
+	letter-spacing:-0.03em;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+p,ul,ol,dl,dt,dd,li{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style:none;
+}
+fieldset{
+	border: 0px;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+legend,
+caption{
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	position:absolute;
+	visibility: hidden;
+	display: none;
+}
+pre{
+	margin: 0px;
+	padding: 0px;
+}
+address{
+	font-style: normal;
+}
+iframe{
+	background: transparent;
+}
+img{
+	border: 0px;
+}
+form{
+	display: inline;
+	margin:0px;
+	padding: 0px;
+}
+table{
+	font-size:100%;
+	border:0;
+}
+table th,
+table td{
+	border:0;
+}
+input,select{
+	vertical-align: middle;
+}
+input, select, textarea,button{
+	font-size:100%;
+	margin: 0;
+}
+form img, form select, form button,form textarea{
+	vertical-align: middle;
+}
+table img, table select, table button,table textarea{
+	vertical-align: middle;
+}

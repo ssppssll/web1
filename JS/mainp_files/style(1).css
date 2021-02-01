@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import "mnd_link.css";
+@import "birthday.css";
+@import "weather.css";
+@import "defense.css";
+@import "staff.css";
+@import "login.css";
+@import "popup.css";
+@import "tab_list.css";
+@import "counter.css";
+@import "popup_01.css";
+@import "history.css";
+@import "organ.css";
+@import "banner.css";
+@import "navi.css";
+@import "newsin.css";
+@import "damdang.css";
+
+ 
+body{overflow-x:auto !important;}
+#wrap-container{position: relative; width: 100% !important; min-width: 1000px; overflow: hidden;}
